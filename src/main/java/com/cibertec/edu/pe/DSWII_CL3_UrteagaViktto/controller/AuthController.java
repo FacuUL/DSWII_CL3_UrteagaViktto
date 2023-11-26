@@ -54,7 +54,7 @@ public class AuthController {
 
 
     private String generarToken(Usuario usuario){
-        String clave = "@Cibertec2023";
+        String clave = "cl3Facu";
         List<GrantedAuthority> authorityList = detalleUsuarioService
                 .obtenerListaRolesUsuario(usuario.getRoles());
         String token =
